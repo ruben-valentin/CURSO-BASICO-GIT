@@ -121,6 +121,13 @@ Abre una terminal y ejecuta:
 git config --global user.name "Tu Nombre"
 git config --global user.email "tu.email@ejemplo.com"
 ```
+### Si quieres eliminar totalmente esas configuraciones globales puedes usar:
+
+```bash
+git config --global --unset user.name
+git config --global --unset user.email
+```
+
 
 Esta información se guarda en un archivo llamado `.gitconfig` en tu directorio de usuario.
 
