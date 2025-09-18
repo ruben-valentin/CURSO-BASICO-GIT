@@ -614,13 +614,13 @@ ssh-keygen -t ed25519 -C "tu.email@ejemplo.com"
 eval "$(ssh-agent -s)"
 
 # En Windows (Git Bash)
-eval $(ssh-agent -s)
+ssh-agent start
 ```
 
 ### Añadir la clave SSH al agente
 
 ```bash
-ssh-add ~/.ssh/id_ed25519
+ssh-add C:\Users\TU_USUARIO\.ssh\id_ed25519
 ```
 
 ### Añadir la clave SSH a tu cuenta de GitHub
