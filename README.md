@@ -1,6 +1,6 @@
 # CURSO-BASICO-GIT
 
-# Curso de Git y GitHub desde CERO para PRINCIPIANTES - Update
+# Curso de Git y GitHub desde CERO para PRINCIPIANTES
 
 ## Índice
 1. [Introducción](#introducción)
